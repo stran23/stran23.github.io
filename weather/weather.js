@@ -19,7 +19,7 @@ var weatherAlertsUrl = 'https://api.weather.gov/alerts/active?region_type=land';
   return { color: alertColor };
   if (feature.properties.severity === 'Minor') alertColor = 'yellow';
   return { color: alertColor };
- 
+  
 },
 
 
